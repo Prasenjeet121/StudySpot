@@ -1,0 +1,429 @@
+*{
+    margin:0;
+}
+
+.navHolder{
+    height:100px;
+    width:90%;
+
+    margin:0 auto;
+    background-color: rgb(28, 39, 43);
+}
+.mainNavHolder{
+    background-color: rgb(28, 39, 43);
+}
+.slideSideMenu{
+    position: absolute;
+    top:0;
+    z-index: 2;
+    height:100%;
+    width: 270px;
+    background-color:rgb(245, 248, 251);
+}
+
+.closeAndLogoHolder{
+    height:50px;
+    background-color: rgb(28, 39, 43);
+   
+}
+
+.menuMobileHolder{
+
+
+
+}
+.listMenuCon{
+    
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+    height: 45px;
+   
+    
+}
+.menu.menuCurrent{
+    background-color: rgb(239, 91, 37);
+    width: 93%;
+    margin:0 auto;
+
+    border-radius: 20px;
+    
+    color:white;
+    font-weight:500;
+    
+}
+.menu.menuCurrent a:hover{
+    color:white;
+}
+.menu.menuCurrent a{
+    padding-left: 31px;
+    color:white;
+    font-weight: 500;
+
+}
+
+.profileimage img{
+    height:53px;
+    width:53px;
+
+}
+.nameHolder{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.profileHolder{
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Usertype{
+   
+}
+
+
+.menu a:hover{
+    color:rgb(239, 91, 37);
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(80, 75, 75);
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 48px;
+    padding-left: 42px;
+
+}
+.closeAndLogoHolder{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    height:110px;
+
+}
+
+.closeAndLogoHolder .middle{
+   width: 90%;
+   background-color: rgb(28, 39, 43);
+   height: 100%;
+}
+.closeAndLogoHolder .rightSide{
+    width: 10%;
+    display: flex;
+    height: 100%;
+    padding-top: 20px;
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+.logo{
+    padding-left: 15px;
+}
+
+.fader{
+    z-index: 1;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    opacity: 0.3;
+    background-color: gray;
+}
+
+.hide{
+   display: none;
+}
+.show{
+    display: block;
+}
+
+.mobileNav{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 39, 43);
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.mobileNav .left{
+    width:50%;
+
+}
+.mobileNav .right{
+    width:50%;
+    
+    
+
+}
+.menuIcoMobile{
+    float: right;
+    padding-right: 20px;
+    font-size: 27px;
+    color: white;
+
+}
+
+
+
+.navSlidePos{
+    
+    animation: fadingExam;
+    animation-duration: 1s;
+
+}
+
+.logoHolder img{
+    height:50px;
+    width:50px;
+}
+
+.logoHolder{
+    padding-left: 10px;
+}
+
+.logoMobile img{
+    height:30px;
+    width:30px;
+
+}
+
+.logoMobile{
+    padding-left: 10px;
+}
+
+.menuIcoMobile img{
+    height: 55px;
+    width:55px;
+}
+
+
+
+
+/* desktop */
+
+.desktopNav .logo img{
+   width:55px;
+   height: 55px;
+
+}
+
+.desktopNav{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin:0 auto;
+
+}
+.desktopNav .right{
+    width:80%;
+     background-color: rgb(28, 39, 43);
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
+     padding-right: 10px;
+
+}
+
+.desktopNav .deskNav{
+   
+    
+     margin-bottom: 10px;
+     margin-left: 20px;
+     letter-spacing: 0.5px;
+
+}
+.desktopNav .deskNav a:hover{
+    color: rgb(239, 91, 37);
+}
+.desktopNav .deskNav a{
+    height: 35px;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+         color:white;
+         text-transform: uppercase;
+}
+.deskNavL.login button:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.deskNavL.login button{
+
+    margin-left: 14px;
+    font-family: "Open Sans", sans-serif;
+         color:white;
+         text-transform: uppercase;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(239, 91, 37);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height:35px;
+    width:70px;
+    border-radius: 4px;
+    border:0;
+    margin-bottom: 5px;
+    
+
+}
+.desktopNav .left{
+    width:20%;
+    background-color: rgb(28, 39, 43);
+    display: flex;
+    align-items: center;
+
+}
+
+.topTriangle img{
+    height:19px;
+    width: 40px;
+
+}
+.topTriangle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.dropDownContent{
+    
+    width: 100%;
+    background-color: rgb(28, 39, 43);
+    border-radius: 10px;
+   
+    
+}
+.topTriangle{
+    height:20px;
+    width: 100%;
+    
+}
+.DropDownSub{
+    position: relative;
+}
+.dropDownListSUbject{
+    padding-top: 0;
+    position: absolute;
+    top:31px;
+    right:-116px;
+    z-index: 2;
+    width: 300px;
+    
+     background-color:white;
+
+}
+
+.headerDropDown{
+    height:45px;
+    border-bottom: 1px solid white;
+    display: flex;
+    
+}
+
+.backButton{
+ width: 20%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color:white;
+
+}
+.listDropDownSub{
+   
+    width: calc(100%-4px);
+    height:50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    border-left: 7px solid rgb(28, 39, 43);
+
+}
+
+.textListDropDown{
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.listDropDownSub:hover{
+
+    border-left: 7px solid rgb(239, 91, 37);
+    opacity: 0.8;
+    background-color: brown;
+}
+
+.HeadingTextDrop{
+width: 80%;
+height:100%;
+padding-left: 50px;
+display: flex;
+align-items: center;
+color:white;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.mainContent{
+   padding:10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fadingExam {
+    0%   {transform: translateX(-0px);}
+    
+    100% {transform: translateX(-270px);}
+}
+
+
+@media(min-width:800px){
+    .navHolder{
+        height:100px;
+        width:100%;
+        margin:0;
+        background-color:rgb(28, 39, 43);
+    }
+    .mainNavHolder{
+        height: 100px;
+    }
+    .slideSideMenu{
+        display: none;
+    }
+    .fader{
+        display: none;
+    }
+}
+
+
+
+
