@@ -1,0 +1,12 @@
+.signInHolder {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   font-weight: 700;
+   font-size: 2rem;
+   color:royalblue;
+   margin:1px 0px 10px 0px;
+}
+.royalblue{
+    color: royalblue !important;
+}

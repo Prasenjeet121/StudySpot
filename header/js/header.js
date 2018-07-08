@@ -99,7 +99,7 @@ setTimeout(function(){
 },1000)
 
 $(".classMobileMenuIcon .threeDot").click(function(){
-    console.log("hi")
+    //console.log("hi")
     
     $(".mobileNav").removeClass("rightSlideHideMobile");
     $(".mobileNav").show();
@@ -107,20 +107,3 @@ $(".classMobileMenuIcon .threeDot").click(function(){
 })
 
 
-$(".search img").click(function(){
-    $("#searchInput").removeClass("searchInputHidden");
-    $("#searchInput").toggleClass("searchWidthMakerHide"
-    );
-    $("#searchInput").toggleClass("searchWidthMakerShow");
-
-
-})
-
-$(".searchM img").click(function(){
-    $("#searchInputM").removeClass("searchInputHidden");
-    $("#searchInputM").toggleClass("searchWidthMakerHide"
-    );
-    $("#searchInputM").toggleClass("searchWidthMakerShow");
-
-
-})
