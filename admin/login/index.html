@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Login</title>
+</head>
+<body>
+    <nav class="headerLogin">
+       <div class="leftHeader">
+           <div class="logoHolderAd">
+               <img src="./img/logo.png" alt="logo">
+           </div>
+       </div>
+       <div class="rightHeader">
+           <div class="gearHolder">
+               <span class="gear"><img src="./img/gear.png" alt="gear"></span>
+               <span class="adminAreatext">Admin Area</span>
+           </div>
+       </div>
+
+    </nav>
+
+    <div class="mainBodyLoginHolder">
+    <div class="mainBodyLogin">
+
+        <div class="logoHolder"><img src="./img/logo.png" alt="logo"></div>
+        <div class="inputHolder">
+            <form action="/admin/login.php">
+              <input class="inputLog" type="text" name="username" placeholder="username">
+              <input class="inputLog" type="password" name="passcode" placeholder="password">
+              <div class="loginButtonPasscodeForgot">
+                  <div class="passcodeForget">
+                      <span>forgot password</span>
+                  </div>
+                  <div class="loginButtonHolder">
+                    <input class="loginButton" type="submit" value="login">
+                  </div>
+              </div>
+              
+            </form>
+        </div>
+    </div>
+    </div>
+   
+    <footer>
+        <span>copyright @ 2018</span>
+    </footer>
+
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>

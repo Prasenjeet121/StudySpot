@@ -1,0 +1,405 @@
+*{
+    margin:0;
+
+}
+nav{
+    display: flex;
+    height:100px;
+    background-color: rgb(28, 39, 43);
+    position:relative;
+
+
+}
+.logoHolder{
+    height:100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding:5px 0px 5px 15px;
+
+}
+.logoHolder img{
+    height: 55px;
+    width:55px;
+    
+}
+.menuHolder{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.menuHolder .menu a{
+    text-decoration: none;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    margin:0px 15px 0px 0px;
+
+}
+.menuHolder .menu a:hover{
+    color: #4A86E8
+}
+
+.menu{
+    padding:0px 10px 10px 0px;
+}
+
+.search  img, .searchM img{
+  height:35px;
+  width:35px;
+  margin-bottom: 7px;
+  margin-right: 15px;
+}
+
+
+.searchInput input#searchInput{
+    margin:0px 15px 10px 0px;
+    height:30px;
+    width:200px;
+    color:royalblue;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.searchInputM input#searchInputM{
+    margin:0px 15px 10px 0px;
+    height:30px;
+    width:50px;
+    color:brown;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.threeDot{
+    margin:0px 0px 0px 10px;
+}
+
+
+.signIn{
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    margin:0px 15px 0px 0px;
+}
+.signIn:hover{
+    color:#4A86E8
+}
+
+.signUp button{
+    border:0;
+    padding:10px 15px 10px 15px;
+    color:white;
+    background-color: #4A86E8;
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+}
+.upperSectionMenu{
+    position:fixed;
+    height:100%;
+    width:100%;
+    background-color: rgb(228, 222, 222, 80%);
+
+
+}
+.crossHolder{
+    height:5%;
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding:20px 20px 0px 0px;
+    
+}
+.crossHolder span{
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.upperSectionMenuMain{
+    width:95%;
+    margin:0 auto;
+    
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.headingUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px 0px 10px 0px;
+    color:white;
+    text-transform: uppercase;
+    background-color: rgb(32, 114, 117);
+    margin-bottom: 20px;
+
+
+}
+.selectionMenuHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;;
+}
+.selectionMenuHolder select{
+    width:100%;
+    height:40px;
+    outline-color: royalblue;
+    color:royalblue;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.selectionMenuHolder select option{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.selectionMenu{
+    
+}
+.nextButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0px 20px 0px;
+}
+.nextButton button{
+    border:0;
+    background-color: royalblue;
+    color:white;
+    cursor: pointer;
+    padding:10px 20px 10px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.section1{
+    z-index: 2;
+    display: none;
+
+}
+.section2{
+    z-index: 4;
+    display: none;
+}
+.section3{
+    z-index: 4;
+    display: none;
+}
+
+.mobileNav{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    height: 100%;
+    width:320px;
+    overflow: auto;
+    display: none;
+}
+.upperSec{
+    background-color: rgb(28, 39, 43);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:5px 15px 5px 0px;
+    position: fixed;
+    left:280px;
+
+}
+.upperSec .crossM{
+    color:red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.bodySec{
+    overflow: auto;
+    
+}
+.upperSecProf{
+    background-color:  rgb(28, 39, 43);
+    height:110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.upperSecProf .name{
+    margin:0px 0px 0px 10px;
+    color:white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 19px;
+
+}
+.bodySec{
+    display: flex;
+    justify-content: center;
+}
+.upperSecProf img{
+    height:45px;
+    width:45px;
+}
+.bodySecMainMid{
+    width:90%;
+    margin:0 auto;
+    margin-top: 25px;
+}
+.menuDivM{
+    width:100%;
+    
+    border-radius: 40px;
+    padding: 10px 0px 10px 0px;
+    margin: 5px 0px 5px 0px;
+
+
+}
+.menuDivM span{
+    text-transform: capitalize;
+    padding:10px 0px 10px 25px;
+    font-size: 19px;
+    color:rgb(80, 75, 75);
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    
+}
+.menuDivM span:hover{
+    color:rgb(239, 91, 37);
+}
+.fundaBack{
+    background-color: rgb(239, 91, 37);
+
+}
+.fundaBack span:hover{
+    color:white !important;
+}
+
+.rightSlideShowMobile{
+    animation-name: rightSlideMobileShow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+.rightSlideHideMobile{
+    animation-name: rightSlideMobileHide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rightSlideMobileShow {
+    0%{transform: translateX(-320px);}
+    
+    100%{transform: translateX(0px);}
+}
+
+.classMobileMenuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    padding:0px 20px 0px 0px;
+    cursor: pointer;
+
+}
+
+.searchWidthMakerShow{
+    animation-name: searchWidthAni;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    display: inherit;
+}
+.searchWidthMakerHide{
+    animation-name: searchWidthAniBack;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+    
+
+}
+.searchInputHidden{
+    display: none;
+}
+
+@keyframes rightSlideMobileHide {
+    0%{transform: translateX(0px);}
+    
+    100%{transform: translateX(-320px);}
+}
+@keyframes searchWidthAni {
+    0%{
+        width:0px;
+    }
+    
+    100%{ 
+        width: 120px;
+
+    
+    }
+}
+
+@keyframes searchWidthAniBack {
+    0%{
+        width:120px;
+    }
+    
+    100%{ 
+        
+        width: 0px;
+        display: none;
+        
+        
+
+    
+    }
+}
+
+@media only screen and (min-width:1000px){
+ 
+    .menuHolder{
+        display: inherit;
+    }
+    .classMobileMenuIcon{
+         display: none;
+    }
+}
+@media only screen and (max-width:1000px){
+    
+    .menuHolder{
+        display: none;
+    }
+    .classMobileMenuIcon{
+         display: inherit;
+    }
+}
+
+@media only screen and (max-width : 430px){
+    body{
+        background-color: #4A86E8;
+    }
+    .threeDot{
+        margin:0px 13px 0px 10px;
+    }
+    .searchInputM input#searchInputM{
+        width:100px;
+    }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/dash.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/Jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+
+    <!-- header is here -->
+    <nav class="header">
+        <div class="leftHeader">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="rightHeader">
+            <span class="gear"><img src="./img/gear.png" alt=""></span>
+            <span class="adminAreaText">Admin Area</span>
+            <span class="menu"><img src="./img/menu.png" alt="menu"></span>
+        </div>
+    </nav>
+     
+    <!-- plus sign is here  -->
+    <div class="plusSignHolder">
+        <span class="plusSign">
+            <img src="./img/addButton.png" alt="addButton">
+        </span>
+    </div>
+    
+    <!-- slide up menu is here  -->
+    <div class="slideUpMenu">
+        <div class="croxxHolder">
+            <img src="./img/remove.png" alt="remove">
+
+        </div>
+        <div class="classHolder createNewClass">
+            <span class="classLogo"><img src="./img/class.png" alt="class logo"></span>
+            <span class="text">create new class</span>
+        </div>
+
+        <div class="classHolder createNewSubject">
+                <span class="classLogo"><img src="./img/sub.png" alt="class logo"></span>
+                <span class="text">create new subject</span>
+        </div>
+
+        <div class="classHolder">
+                <span class="classLogo"><img src="./img/chap.png" alt="class logo"></span>
+                <span class="text">create new chapter</span>
+        </div>
+        <div class="classHolder">
+                <span class="classLogo"><img src="./img/topic.png" alt="class logo"></span>
+                <span class="text">create new topic</span>
+        </div>
+
+    </div>
+
+    <!-- create class is here   -->
+    <div class="createClassWrapper">
+     <div class="createClassHolder">
+         
+        <div class="leftClass">
+          <div class="leftClassWrapper">
+              <div class="leftClassWrapper">
+                    <h3><span>Class Created</span> </h3>
+              </div>
+            <div class="classList">
+                 <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                 <span class="textHolderC">
+                     Class 12
+                 </span>
+            </div>
+            <div class="classList">
+                    <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                    <span class="textHolderC">
+                        Class 11
+                    </span>
+            </div>
+            <div class="classList">
+                    <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                    <span class="textHolderC">
+                        Class 10
+                    </span>
+            </div>
+            <div class="classList">
+                    <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                    <span class="textHolderC">
+                        Class 9
+                    </span>
+            </div>
+            <div class="classList">
+                    <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                    <span class="textHolderC">
+                        Class 8
+                    </span>
+            </div>
+            <div class="classList">
+                    <span class="logo"><img src="./img/class.png" alt="classLogo"></span>
+                    <span class="textHolderC">
+                        Class 7
+                    </span>
+            </div>
+            </div>
+        </div>
+        <div class="rightClass">
+             <div class="croxxAndLabel">
+                 <div class="labelC"></div>
+                 <div class="coxxC"> <img src="./img/remove.png" alt="remove"></div>
+             </div>
+             <div class="inputHolderC">
+                 <div class="inputC">
+                     <form action="admin/create/createClass.php">
+                     <input class="classNameIn" type="text" name="className" placeholder="class name">
+                     <div class="buttonC">
+                        <input type="button" value="create">
+                     </div>
+                     
+                     </form>
+                 </div>
+             </div>
+        </div>
+         
+     </div>
+     </div>
+
+
+     <!-- create subject is here  -->
+     <div class="createSUbjectWrapper">
+     <div class="createSubHolder">
+         <div class="leftSub">
+             <div class="leftSubBody">
+                 <div class="headerList">
+                     <span>Subjects Created</span>
+                 </div>
+                 <div class="subList">
+                     <span class="logoSub"><img src="./img/sub.png" alt="subject logo"></span>
+                     <span class="textSub">Maths</span>
+                 </div>
+                 <div class="subList">
+                        <span class="logoSub"><img src="./img/sub.png" alt="subject logo"></span>
+                        <span class="textSub">physics</span>
+                 </div>
+                 <div class="subList">
+                        <span class="logoSub"><img src="./img/sub.png" alt="subject logo"></span>
+                        <span class="textSub">chemistry</span>
+                 </div>
+                 <div class="subList">
+                        <span class="logoSub"><img src="./img/sub.png" alt="subject logo"></span>
+                        <span class="textSub">biology</span>
+                 </div>
+             </div>
+         </div>
+         <div class="rightSub">
+             <div class="croxxHolderSub">
+                 <span class="croxx"><img src="./img/remove.png" alt="remove Button"></span>
+             </div>
+             <div class="inputFormHolderSub">
+                <form action="admin/create/subject.php">
+                    <input type="text" placeholder="subject name " class="subjectNameInput">
+                    <select name="subListExit" id="subListExit">
+                        <option value="CLASS12">CLASS 12</option>
+                        <option value="CLASS11">CLASS 11</option>
+                        <option value="CLASS10">CLASS 10</option>
+                        <option value="CLASS9">CLASS 9</option>
+                        <option value="CLASS8">CLASS 8</option>
+                    </select>
+                    <div class="createSubButton">
+                        <input type="submit" value="create" class="createSubBut">
+                    </div>
+                </form>
+             </div>
+         </div>
+
+     </div>
+     </div>
+
+<!-- create chapter is here  -->
+     <div class="chapterCreationWrapper">
+         <div class="createChap">
+             <div class="inputHolder">
+                 <input type="text" class="chapterNameInput">
+                 <input type="button" value="create" class="chapterCreatebutton">
+             </div>
+
+             <div class="createdChapterHolder">
+                 <div class="chapListHolder">
+                     <div class="chapListLeft">
+                         <span class="logoChapHolder"><img src="./img/chap.png" alt="chapter logo"></span>
+                         <span class="chapterName">Polynomial</span>
+                     </div>
+                     <div class="chapListRight">
+                         <span class="topicHolderNum">
+                             <span class="topicLogo"><img src="./img/topic.png" alt="topic logo"></span>
+                         </span>
+                         <span class="textTopicnum">
+                             Topic: <span>23</span>
+                         </span>
+                         <span class="optionHolderChap">
+                             <div class="optionOptions">
+                                 <a href="#"><button class="deleteChap">delete</button></a>
+                                 <a href="#"><button class="analyChap">go to analytics</button></a>
+                             </div>
+                         <img src="./img/optionButton.png" alt="">
+                         </span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <!-- script is here dash.js -->
+    <script src="./js/dash.js"></script>
+</body>
+</html>

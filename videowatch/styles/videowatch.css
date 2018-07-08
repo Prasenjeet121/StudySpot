@@ -1,0 +1,724 @@
+*{
+    margin: 0;
+}
+
+.backButtonHolder{
+    width:90%;
+    margin:0 auto;
+    padding:10px 10px 10px 5px;
+    margin-bottom: 20px;
+    
+}
+.backButtonHolder button{
+    padding:5px 15px 5px 15px;
+    color:white;
+    background-color: cadetblue;
+    font-weight: 600;
+    border: 0;
+   
+}
+.backButtonHolder img{
+    height:25px;
+}
+
+.labelsHolder{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.labelsHolder a:nth-child(odd){
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    margin:2px 5px 2px 5px;
+    background-color: #FF9900;
+    padding:2px 15px 2px 15px;
+    border-radius: 0px 100px 100px 0px;
+    
+}
+.labelsHolder a:nth-child(even){
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:black;
+    margin:2px 5px 2px 5px;
+    background-color: #00FF00;
+    padding:2px 15px 2px 15px;
+    border-radius: 0px 100px 100px 0px;
+    
+    
+}
+
+.heading {
+    padding-left: 5px;
+    padding-top: 15px;
+    width:90%;
+    margin: 0 auto;
+    
+    
+}
+.heading h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.extraInfo{
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    padding:10px 5px 10px 5px;
+    align-items: center;
+    
+}
+.language{
+ display: flex;
+ margin-right: 15px;
+ color:rgb(114, 111, 111);
+ align-items: center;
+}
+.language span{
+    
+    margin-left: 8px;
+    color:rgb(131, 128, 128);
+
+    
+}
+.language img{
+    height:22px;
+    width:22px;
+}
+.peoples{
+   display: flex;
+   margin-right: 15px;
+   color:rgb(114, 111, 111);
+   align-items: center;
+   
+    
+}
+.peoples img{
+    height:22px;
+    width: 22px;
+}
+.peoples span{
+    
+    margin-left: 8px;
+    color:gray;
+}
+.social{
+margin-right: 15px;
+display: flex;
+position: relative;
+}
+.social .shareButtonImg{
+    height:22px;
+    width:22px;
+}
+.socialImageHolder{
+    margin-bottom: 20px;
+   
+}
+.socialImageHolder img{
+    height:32px;
+    width:32px;
+}
+.socialCon{
+    position: absolute;
+    top:45px;
+    z-index: 1;
+}
+.shareButtonImg{
+    height:15px;
+    width:15px;
+}
+.videoHolder{
+    width:90%;
+    margin:0 auto;
+    padding:5px 0px 5px 0px;
+    
+}
+
+.navMenu{
+   display: flex;
+   align-items: center;
+   width:100%;
+   
+   border:1px solid darkslategray;
+   border-top: 0px; 
+}
+
+.previousButon{
+  width:50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding:10px 0px 10px 25px;
+  
+}
+.nextButon{
+  width:50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:10px 25px 10px 0px ;
+}
+.previousButon button{
+    border:0;
+    padding:5px 15px 5px 15px ;
+    font-weight: 600;
+    color:white;
+    background-color: steelblue;
+    cursor: pointer;
+}
+.nextButon button{
+    border:0;
+    padding:5px 15px 5px 15px ;
+    font-weight: 600;
+    color:white;
+    background-color: steelblue;
+    cursor: pointer;
+}
+.textContent{
+    width:90%;
+    margin: 0 auto;
+}
+.topicCovered{
+    margin:25px 5px 25px 5px;
+}
+
+.topicHeader{
+    background-color: rgb(2, 120, 141);
+    padding:15px 5px 15px 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Exo', sans-serif;
+
+    
+}
+.topicBody{
+    border:1px solid rgb(204, 204, 204);
+    border-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+
+}
+.topic:nth-child(even){
+  background-color: rgb(204, 204, 204);
+}
+
+.topic{
+    padding: 10px 20px 10px 20px ;
+}
+.textBook{
+    padding:10px 5px 10px 5px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif; /*  ok */
+    font-family: 'Pathway Gothic One', sans-serif; /*  ok */
+    font-family: 'Barlow', sans-serif; /*  ok */
+}
+.upcomingVidHeading{
+   
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px 10px 10px;
+    font-weight: 700;
+    border:3px solid rgb(2, 120, 141);
+    border-top: 0px solid rgb(2, 120, 141);
+    border-right: 0px solid rgb(2, 120, 141);
+    margin-bottom: 10px;
+    font-family: 'Exo', sans-serif;
+    border-top-left-radius: 20px;
+    
+
+
+
+}
+.upcomingVideosHolder{
+    width:90%;
+    margin:0 auto;
+}
+.imageHolder img{
+    width:190px;
+    height:90px;
+    border:1px solid rgb(2, 120, 141);
+}
+.imageHolder{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.upcomingVid{
+    display: flex;
+    padding:10px 5px 10px 0px;
+    
+    
+
+}
+.upcomingVid1{
+    border:1px solid black;
+    border-bottom: 0px solid black;
+}
+
+.titlesHolder{
+    padding:0px 0px 0px 10px;
+}
+.titlesHolder .header h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial,sans-serif;
+}
+.titlesHolder .header h4{
+    
+    word-break: break-all;
+    margin-bottom: 0px;
+    color:rgb(66, 69, 70);
+    font-family: 'Play', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+.topicsCoveredUpcoming span:nth-child(odd){
+    word-break: break-all;
+    background-color:rgb(204, 204, 204);
+    display: block;
+    padding:10px 25px 10px 25px;
+
+}
+.upcomingCon{
+    margin-bottom: 15px;
+}
+.topicsCoveredUpcoming{
+    border:1px solid black;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    
+    
+}
+.opacityImage{
+    opacity: 0.2;
+}
+.topicHiddenCover{
+    position: absolute;
+    color:black;
+    font-weight: 700;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.topicsCoveredUpcoming span:nth-child(even){
+    word-break: break-all;
+    display: block;
+    padding:10px 25px 10px 25px;
+    
+}
+.commentsHolder{
+    width:90%;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.commentsTitles{
+    
+    margin:0 auto;
+    padding:10px 20px 10px 10px;
+    font-weight: 700;
+    border:3px solid rgb(2, 120, 141);
+    border-top: 0px solid rgb(2, 120, 141);
+    border-right: 0px solid rgb(2, 120, 141);
+    margin-bottom: 10px;
+    font-family: 'Exo', sans-serif;
+    border-top-left-radius: 20px;
+}
+.comments{
+    border:1px solid rgb(2, 120, 141);
+    margin-bottom: 10px;
+}
+.upperSection{
+    display: flex;
+}
+
+.upperSection img{
+    height:45px;
+    width:45px;
+    border-radius: 100px;
+}
+.upperSection .imgHolder{
+    padding:5px 10px 5px 5px;
+}
+
+.commentsBody{
+    padding:5px 10px 5px 5px;
+    font-family: 'Barlow', sans-serif;
+   
+}
+
+.dateHolder{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+}
+.nameHolder{
+    font-weight: 500;
+   
+    
+}
+form textarea{
+    height:150px;
+    width:100%;
+}
+.submitComments{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.submitComments span{
+    color:rgb(223, 14, 143);
+    padding-right: 10px;
+    font-weight: 700px;
+    font-family: 'Roboto Slab', serif;
+}
+.submitComments input{
+    background-color: royalblue;
+    border:0px;
+    padding:5px 15px 5px 15px;
+    color:white;
+    font-weight: 500;
+}
+/* ipads */
+@media (max-width : 768px){
+    /* Styles */
+    
+   
+    .menuShow{
+      padding-left: 0px;
+    }
+    .menuShow img{
+        height:25px;
+        width:25px;
+    }
+   
+}
+
+.backToTop{
+    background-color: rgb(2, 120, 141);
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding:10px ;
+    color:white;
+    text-transform: uppercase;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width : 320px){
+    /* Styles */
+    
+       .labelsHolder{
+        background-color: red;
+    }
+
+    
+   
+   
+
+}
+
+
+.vidProf{
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    padding:0px;
+    
+}
+.leftVid{
+ width:70%;
+}
+.rightVid{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.personalInfo img {
+    height: 155px;
+    width:155px;
+    border-radius: 100px;
+}
+.personalInfo p{
+    font-weight: 700;
+    font-size: 22px;
+    color:gray;
+    font-family: 'Barlow', sans-serif;
+}
+.personalInfo{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.youtube{
+    display: flex;
+    margin:10px;
+}
+.youtube .imageHolderS{
+ width:30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border:3px solid #FF0000;
+ padding:4px 0px 4px 0px;
+}
+.youtube .imageHolderS img{
+    height:27px;
+    width:27px;
+}
+.youtube .textHolder{
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    color:white;
+    width: 70%;
+}
+
+
+.facebook{
+    display: flex;
+    margin:10px;
+}
+.facebook .imageHolderS{
+ width:30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border:3px solid #3b5998;
+ padding:4px 0px 4px 0px;
+}
+.facebook .imageHolderS img{
+    height:27px;
+    width:27px;
+}
+.facebook .textHolder{
+    background-color: #3b5998;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    color:white;
+    width: 70%;
+}
+
+
+
+.twitter{
+    display: flex;
+    margin:10px;
+}
+.twitter .imageHolderS{
+ width:30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border:3px solid #1dcaff;
+ padding:4px 0px 4px 0px;
+}
+.twitter .imageHolderS img{
+    height:27px;
+    width:27px;
+}
+.twitter .textHolder{
+    background-color: #1dcaff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    color:white;
+    width: 70%;
+}
+
+
+
+.instagram{
+    display: flex;
+    margin:10px;
+}
+.instagram .imageHolderS{
+ width:30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border:3px solid  #e95950;
+ padding:4px 0px 4px 0px;
+}
+.instagram .imageHolderS img{
+    
+    height:27px;
+    width:27px;
+    
+}
+.instagram .textHolder{
+    background-color:  #e95950;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    color:white;
+    width: 70%;
+}
+.aithorInfoSocialHolder{
+    width:90%;
+    margin:0 auto;
+    padding:2px 0px 2px 5px;
+    display: flex;
+    align-items: center;
+
+}
+.byAuthor{
+  color:royalblue;
+  font-weight: 500;
+  font-style: italic;
+  margin:0px 5px 0px 0px;
+}
+
+.imageAuthor img{
+    height:29px;
+    width:29px;
+    border-radius: 100px;
+    margin: 0px 10px 0px 0px;
+
+}
+.nameAuthor{
+    font-weight: 600;
+    margin:0px 10px 0px 0px ;
+    font-style: italic;
+
+}
+.aithorInfoSocialHolder a img{
+    height:30px;
+    width:30px;
+    margin:0px 10px 0px 0px;
+
+}
+
+@media (max-width : 1190px){
+    
+    .rightVid{
+          display: none;
+    }
+    .rightVid{
+        width:0%;
+    }
+    .leftVid{
+        width:100%;
+    }
+    .aithorInfoSocialHolder{
+        display: inherit;
+        
+    }
+
+}
+
+@media (min-width : 1190px){
+    
+    .rightVid{
+        display: inherit;
+  }
+  .rightVid{
+      width:30%;
+  }
+  .leftVid{
+      width:70%;
+  }
+
+
+  .aithorInfoSocialHolder{
+      display: none;
+
+  }
+
+    
+}
+
+
+
+@media (max-width : 870px){
+   .titlesHolder {
+       padding:10px 0px 10px 0px;
+       border-bottom: 1px solid rgb(201, 198, 198);
+   }
+   .socialButtonAuthor img{
+       height:18px !important;
+       width:18px !important;
+   }
+   .upcomingVid{
+    flex-wrap: wrap;
+    word-break: break-all;
+   }
+   .heading{
+       width:98%;
+       margin:0 auto;
+   }
+   .aithorInfoSocialHolder{
+    width:98%;
+    margin:0 auto;
+
+   }
+   .vidProf{
+    width:98%;
+    margin:0 auto;
+   }
+   .leftVid{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+   }
+   .videoHolder{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+   }
+   .extraInfo{
+       width:98%;
+       margin:0 auto;
+   }
+   .language img{
+       height:15px;
+       width:15px;
+   }
+   .peoples img{
+    height:15px;
+    width:15px;
+}
+.shareButtonImg{
+    height:15px;
+    width:15px;
+}
+.labelsHolder{
+    width:98%;
+    margin:0 auto;
+}
+}

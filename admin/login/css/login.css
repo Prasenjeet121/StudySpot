@@ -1,0 +1,140 @@
+*{
+    margin:0;
+
+}
+nav.headerLogin{
+    height:100px;
+    background-color:#1C272B;
+    display:flex;
+    align-items: center;
+
+}
+.leftHeader{
+    flex-grow: 1;
+    display: flex;
+
+}
+.rightHeader{
+    flex-grow: 1;
+    display: flex;
+}
+.logoHolderAd{
+    width: 100%;
+    padding:0px 0px 0px 20px;
+
+}
+.logoHolderAd img{
+    width:45px;
+    height:45px;
+}
+.gearHolder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0px 10px 0px 10px;
+    width: 100%;
+}
+.gear img{
+    height:35px;
+    width:35px;
+
+}
+.adminAreatext{
+    padding:0px 0px 0px 10px;
+    color:white;
+    font-weight: 600;
+}
+
+.mainBodyLoginHolder{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    
+    
+}
+.mainBodyLogin{
+    
+    
+
+}
+
+.inputHolder{
+    margin:0px 0px 20px 0px;
+    
+
+}
+.inputLog{
+    display: block;
+    margin:20px 0px 10px 0px;
+    width:350px;
+    height:40px;
+    font-size: 18px;
+    color:royalblue;
+    font-weight: 500;
+    padding-left: 8px;
+
+}
+.loginButtonPasscodeForgot{
+    display: flex;
+    
+}
+.passcodeForget{
+    flex-grow: 1;
+}
+.loginButtonHolder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    flex-grow: 1;
+}
+
+.loginButton{
+    padding:5px 20px 5px 20px;
+    background-color: royalblue;
+    border:0;
+    color:white;
+    font-weight: 600;
+}
+footer{
+    
+    background-color: #EBEBEB;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    
+}
+footer span{
+    font-style: italic;
+
+}
+.mainBodyLogin .logoHolder img{
+    height:200px;
+    width:200px;
+
+}
+.mainBodyLogin .logoHolder{
+    display: flex;
+    justify-content: center;
+}
+
+.passcodeForget span{
+    color:blue;
+}
+
+@media screen and (max-width: 420px) {
+    .logoHolder img{
+       width:55px;
+       height:55px;
+    }
+
+  .passcodeForget span{
+      color:green;
+  }
+  
+}
+    
