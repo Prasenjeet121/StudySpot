@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+
+}
+footer .cache{
+    padding:20px;
+
+}
+footer .upperFooter{
+    display: flex;
+    padding: 25px 10px 15px 10px;
+    flex-wrap: wrap;
+    background-color: #1C272B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+footer .secF1 img{
+    height: 155px;
+    width:155px;
+
+}
+footer .secF1{
+    display: flex;
+    align-items: flex-start;
+    padding:10px 5px 10px 10px;
+    justify-content: flex-start;
+    flex-grow: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer .secF2{
+    padding:10px 15px 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+footer .secF3{
+    padding:10px 15px 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+}
+footer .secF4{
+    padding:10px 15px 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+footer .secF5{
+    padding:10px 15px 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer .secF2 .header2, .secF3 .header3,footer .secF4 .header4 {
+    color:white;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+footer .secF2 .body2, footer .secF3 .body3,footer  .secF4 .body4 {
+   margin:10px 0px 0px 0px;
+  
+
+}
+footer .secF2 a,footer  .secF3 a , footer .secF4 a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding:7px 0px 7px 0px;
+}
+footer .socialHolder span img{
+    margin:0px 5px 0px 5px;
+    height:35px;
+    width:35px;
+
+}
+
+footer .lowerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C272B;
+    padding: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    
+    
+
+}
+footer .lowerMain{
+    margin:0px 5px 0px 5px;
+    color:rgb(255, 166, 0);
+    display: flex;justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 5px 10px 5px;
+    
+}
+footer .lowerFooter .copyright {
+    flex-grow: 1;
+    word-break: keep-all;
+    display: flex;
+    justify-content: center;
+    
+}
+footer .lowerMain .allrightRes {
+    word-break: keep-all;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+@media (max-width: 820px){
+    footer .secF1{
+        justify-content: center;
+    }
+    footer .secF1 img{
+        height:115px;
+        width:115px;
+
+    }
+    footer .lowerFooter div{
+        padding: 2px;
+        
+    }
+}
