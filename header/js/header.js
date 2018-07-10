@@ -116,3 +116,46 @@ $(".searchM img").click(function(){
     $(".searchHolderZindex").slideToggle();
 })
 
+// login is here 
+
+$(".logoRemoveLogin").click(function(){
+    $(".loginHolder").slideToggle();
+    
+});
+
+$(".menuDivM .signInM").click(function(){
+    $(".loginHolder").slideToggle();
+    $(".loginHolder").css("display", "inherit");
+});
+$(".menu .signIn").click(function(){
+    $(".loginHolder").slideToggle();
+    $(".loginHolder").css("display", "inherit");
+}
+)
+// login ends here 
+
+
+// register is  here 
+
+$(".emailSi .errorSi img").click(function(){
+    $(".emailSi .infoHolder").slideToggle();
+})
+
+
+$(".removeSiHolder .removeRi").click(function(){
+    $(".regiHolder").slideToggle();
+    
+});
+
+$(".menuDivM .signUpM ").click(function(){
+    $(".regiHolder").slideToggle();
+    $(".regiHolder").css("display", "inherit");
+
+});
+
+$(".menu .signUp ").click(function(){
+    $(".regiHolder").slideToggle();
+    $(".regiHolder").css("display", "inherit");
+
+});
+

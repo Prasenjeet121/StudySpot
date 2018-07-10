@@ -362,6 +362,336 @@ nav{
     width:45px;
     margin:0px 0px 0px 10px;
 }
+
+.loginHolder{
+   position: fixed;
+   z-index: 10;
+
+   top:0;
+   width:100%;
+   height:100%;
+   background-color: rgb(192, 191, 191,90%);
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   display: none;
+}
+.loginHolder .loginLogo .logoLogin img{
+   height:85px;
+   width:85px;
+}
+.loginHolder .loginLogo .loginText{
+    font-size: 35px;
+    font-weight: 600;
+    color:royalblue;
+    padding:0px 0px 0px 15px;
+}
+.loginHolderBody {
+    width:60%;
+    
+
+}
+.loginHolder .loginLogo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.loginHolder .inpuHolder label{
+    display: block;
+    color:rgb(34, 125, 209);
+    font-style: normal;
+    
+    margin:15px 0px 4px 0px;
+    font-weight: 600;
+    display: none;
+   
+    
+    
+    
+}
+.removeButtonHereLogin {
+    position: absolute;
+    top:0;
+    right:0;
+    padding:25px;
+    cursor: pointer;
+
+}
+.removeButtonHereLogin .logoRemoveLogin img{
+    height:35px;
+    width:35px;
+
+}
+.loginHolder .inpuHolder input{
+    margin:25px 0px 25px 0px;
+    width:100%;
+    color:royalblue;
+    height:35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding:5px 0px 5px 10px;
+
+
+}
+.submitButtonHolderLogin {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin:15px 0px 10px 0px;
+}
+.submitButtonHolderLogin input{
+   border:0;
+   padding:15px 25px 15px 25px;
+   color: white;
+   background-color: royalblue;
+   font-weight: 600;
+   text-transform: uppercase;
+   
+
+}
+.loginHolder .successLogo {
+    display: none;
+}
+.loginHolder .errorMessage {
+    display: none;
+
+}
+
+
+
+/* here is sign Up */
+
+.regiHolder {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(190, 192, 194, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 10;
+
+}
+.regiHolder .regiHolderMain {
+    width:80%;
+    margin:0 auto;
+}
+
+.regiHolder .userNameScreenNameHolder {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.regiHolder .usernameSi {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.regiHolder .screenNameSi {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.regiHolder .usernameSi input{
+    flex-grow: 1;
+    
+    padding:10px 5px 10px 15px;
+    color: royalblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    
+}
+.regiHolder .usernameSi{
+ position: relative;
+ margin:18px 10px 0px 0px;
+}
+.regiHolder .screenNameSi input{
+    flex-grow: 1;
+    
+    padding:10px 5px 10px 15px;
+    color: royalblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    
+
+}
+.regiHolder .screenNameSi{
+position: relative;
+margin:18px 0px 0px 10px ;
+}
+.regiHolder .usernameSi span{
+    position: absolute;
+    right: 0;
+    
+
+}
+.regiHolder .screenNameSi span{
+    
+    position: absolute;
+    right:0;
+   
+}
+
+.regiHolder .emailSi {
+    display: flex;
+    position: relative;
+    margin:18px 0px 18px 0px;
+    align-items: center;
+}
+
+
+
+
+
+.regiHolder .emailSi input{
+    flex-grow: 1;
+    
+    padding:10px 5px 10px 15px;
+    color: royalblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.regiHolder .emailSi span{
+    flex-grow: 1;
+    position: absolute;
+    right:0;
+
+}
+.regiHolder .passwordSi {
+    display: flex;
+    position: relative;
+    margin:18px 0px 18px 0px;
+    align-items: center;
+}
+.regiHolder .passwordSi input{
+    flex-grow: 1;
+    
+    padding:10px 5px 10px 15px;
+    color: royalblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.regiHolder .passwordSi span{
+    position: absolute;
+    right:0;
+}
+.regiHolder .policyHolderSi {
+    margin:10px 0px 18px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.regiHolder .policyHolderSi input{
+    
+    height:20px;
+    width:20px;
+}
+.regiHolder .policyHolderSi span{
+    margin:0px 0px 0px 10px;
+    color:royalblue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.regiHolder .submitButtonSi input{
+    border:0;
+    padding:15px 25px 15px 25px;
+    color:white;
+    background-color: royalblue;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.regiHolder .logoRegisterSi img {
+  height:85px;
+  width:85px;
+  
+}
+
+.regiHolder .logoRegisterSi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.regiHolder .logoRegisterSi .textRe {
+    font-size: 40px;
+    font-weight: 600;
+    color:royalblue;
+    padding-left: 10px;
+
+}
+.regiHolder .removeRi img{
+    height:35px;
+    height:35px;
+
+}
+.regiHolder .removeSiHolder {
+    position: absolute;
+     top:0;
+     right:0;
+     padding:25px;
+     cursor: pointer;
+}
+
+.regiHolder .errorSi img{
+    height: 31px;
+    width:31px;
+    padding:0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+
+/* info holder */
+
+.regiHolder .infoHolderRe {
+    position: absolute;
+    right:45px;
+    background-color: #4A86E8;
+    width:300px;
+    
+    z-index: 11;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    padding: 15px 15px 15px 10px;
+    color:white;
+    font-weight: 500;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+    word-wrap: break-word;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes rightSlideMobileHide {
     0%{transform: translateX(0px);}
     
@@ -406,5 +736,20 @@ nav{
     .croxxHolderSearch img{
         height:25px;
         width:25px;
+    }
+    .loginHolderBody{
+        width:80%;
+        
+    }
+    .regiHolder .usernameSi{
+        position: relative;
+        margin:18px 0px 0px 0px;
+    }
+    .regiHolder .screenNameSi{
+        position: relative;
+        margin:18px 0px 0px 0px;
+    }
+    .regiHolder .infoHolderRe{
+        width:200px;
     }
 }
